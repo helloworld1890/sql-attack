@@ -59,18 +59,7 @@ body {
           align-items: center;
 }
 
-#flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#flex #article {
-  margin-top: 20px;
+#section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,23 +69,7 @@ body {
           flex-direction: row;
 }
 
-#flex #article img {
-  border-radius: 10px;
-  margin-left: 20px;
-}
-
-#flex #article p {
-  padding-top: 10px;
-  padding: 0 50px 50px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#flex #column {
+#section #article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,14 +77,32 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+}
+
+#section #article p {
+  text-align: left;
+  margin-left: 10px;
+}
+
+#section #article img {
+  margin: 10px 40px 40px 10px;
+  border-radius: 10px;
+}
+
+#section #column .rows {
+  margin: 10px;
 }
 
 footer {
   background-color: black;
   color: #eb9a9a;
+}
+
+footer .contact {
+  margin-top: 10px;
+}
+
+footer .contact p {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
